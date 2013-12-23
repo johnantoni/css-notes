@@ -82,3 +82,17 @@ in the long run this will help you, also if need be create classname delcaration
 
 * When setting flexible margins on an element, your context is the width of the element’s container.
 * When setting flexible padding on an element, your context is the width of the element itself. Which makes sense, if you think about the box model: we’re describing the padding in relation to the width of the box itself.
+
+
+    .lede {
+      padding: 0.8em 5.333333333%; /* 48px / 900px */
+               t/b   l/r
+    }
+
+### flexible images
+
+    img {
+      max-width: 100%;
+    }
+    
+...this will make sure the image never grows beyond the maximum size it naturally is.
