@@ -96,3 +96,17 @@ in the long run this will help you, also if need be create classname delcaration
     }
     
 ...this will make sure the image never grows beyond the maximum size it naturally is.
+...(max-width not available in ie6)
+
+### media-types
+
+* all
+* braille
+* embossed
+* handheld
+* print
+* projection
+* screen
+* speech
+* tty
+* tv
