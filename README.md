@@ -110,3 +110,6 @@ in the long run this will help you, also if need be create classname delcaration
 * speech
 * tty
 * tv
+
+
+    <link rel="stylesheet" href="global.css" media="all" />
