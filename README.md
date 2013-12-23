@@ -114,3 +114,18 @@ in the long run this will help you, also if need be create classname delcaration
 
     link rel="stylesheet" href="global.css" media="all"
 
+### media-queries
+
+options
+
+    ...via css import directive (at the top of the file)
+    @import url("wide.css") screen and (min-width: 1024px);
+    .
+    ...via link and media directive
+    link rel="stylesheet" href="wide.css" media="screen and (min-width: 1024px)"
+    .
+    ...via inside the stylesheet
+    @media screen and (min-device-width: 480px) and (orientation: landscape) {
+        ...
+    }
+    
