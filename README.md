@@ -19,5 +19,11 @@ css-notes
     
     h1 { font-size: 1.5em } => 24px
     
+#### link inside h1
 
+    11 / 24 = 0.458333333333333
+    
+    don't be tempted to round that down to 0.46, browsers are capable of handling this long number, just use it
+    
+    h1 a { font-size: 0.458333333333333 }
 
