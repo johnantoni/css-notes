@@ -129,3 +129,11 @@ options
         ...
     }
     
+### responsive breakpoints
+
+* 320 pixels -- For small screen devices, like phones, held in portrait mode.
+* 480 pixels -- For small screen devices, like phones, held in landscape mode.
+* 600 pixels -- Smaller tablets, like the Amazon Kindle (600×800) and Barnes & Noble Nook (600×1024), held in portrait mode.
+* 768 pixels -- Ten-inch tablets like the iPad (768×1024) held in portrait mode.
+* 1024 pixels -- Tablets like the iPad (1024×768) held in landscape mode, as well as certain laptop, netbook, and desktop displays.
+* 1200 pixels -- For widescreen displays, primarily laptop and desktop browsers.
