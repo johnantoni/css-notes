@@ -78,4 +78,7 @@ in the long run this will help you, also if need be create classname delcaration
       
 ...rather than em's we're using percentages as our context is different, obviously.
 
-    
+### flexible margins
+
+* When setting flexible margins on an element, your context is the width of the element’s container.
+* When setting flexible padding on an element, your context is the width of the element itself. Which makes sense, if you think about the box model: we’re describing the padding in relation to the width of the box itself.
