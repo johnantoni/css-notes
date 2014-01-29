@@ -1,6 +1,20 @@
 css-notes
 =========
 
+### replacement text-indent: -9999px;
+
+    .hide-text {
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+### pseudo elements :before / :after
+
+* content: "text" support in ie8 => YES
+
+...note ie9.js script breaks this feature
+
 ### flexible fonts
 
     TARGET div CONTEXT = RESULT
